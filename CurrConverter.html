@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CurrConverter</title>
+    <link href="CurrConverter.css"  rel="stylesheet"/>
+</head>
+<style>
+ 
+</style>
+<body>
+    <h1 id="main_line"><span>Currency</span> Converter</h1>
+    <h2>Converter</h2>
+    <div id="converterBox">
+        <div class="field_area">
+            <label for="curr_from">From:</label>
+            <select id="curr_from" class="field_value">
+                <option value="">Select Currency</option>
+            </select>
+        </div>
+        <div class="field_area">
+            <label for="curr_to">To:</label>
+            <select id="curr_to" class="field_value" >
+                <option value="">Select Currency</option>
+            </select>
+        </div>
+    </div>
+    <div id="add_curr">
+        <label for="amountcon">Amount:</label>
+        <input id="amountcon" placeholder="Enter Amount" class="field_value" type="number" required />
+        <button onclick="handleChangeAmount()">Convert</button>
+    </div>
+    <h2>Amount After conversion:</h2>
+    <h1 id="amount">0</h1>
+    <script  src="CurrConverter.js">
+    </script>
+</body>
+</html>
