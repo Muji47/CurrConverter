@@ -47,8 +47,11 @@ h2{
     font-size: large;
     width: 12rem;
 }
-label{
+.labelcat{
     font-weight: bold;
+}
+#optional_dropdown{
+    display: none;
 }
 #add_curr{
     margin: 1rem;
@@ -63,4 +66,11 @@ button{
     padding: 1px;
     border: white;
     cursor: pointer;
+}
+.hiddentext{
+color: rgb(247, 34, 34);
+display: none;
+}
+#optional_amount{
+    display: none;
 }
